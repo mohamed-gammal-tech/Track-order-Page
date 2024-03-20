@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Order Tracking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tracking-container">
+    <div class="tracking-header">
+        <h2>ORDER Details</h2>
+        <div class="tracking-info">
+            <span>Expected Arrival 25/3/2024</span>
+            <span>Order No: 1245412361234 </span>
+        </div>
+    </div>
+    <div class="tracking-progress">
+        <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+        </div>
+        <div class="progress-steps">
+            <div class="step completed">
+                <div class="icon"><i class="fas fa-box"></i></div>
+                <span>Order Processed</span>
+            </div>
+            <div class="step completed">
+                <div class="icon"><i class="fas fa-truck"></i></div>
+                <span>Order Shipped</span>
+            </div>
+            <div class="step">
+                <div class="icon"><i class="fas fa-home"></i></div>
+                <span>Order Enroute</span>
+            </div>
+            <div class="step">
+                <div class="icon"><i class="fas fa-check-circle"></i></div>
+                <span>Order Arrived</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
